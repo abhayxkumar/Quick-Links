@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Quick Links",
+    "description": "This extension will give quick access to preferred sites.",
+    "version": "1.0",
+
+    "icons": { "16": "www16.png",
+        "32": "www32.png",
+       "128": "www128.png" },
+  
+    "browser_action": {
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
